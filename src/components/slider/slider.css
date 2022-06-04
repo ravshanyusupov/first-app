@@ -1,0 +1,124 @@
+.slider-top{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.slider-img{
+    display: flex;
+    justify-content: center;
+    width: 27%;
+    margin-top: 20px;
+}
+
+.slider-big{
+    width: 100%;
+    height: 300px;
+    background-color: #e3e2e2;
+    border-radius: 10px;
+    margin-right: 3%;
+}
+
+.slider-couple{
+    width: 100%;
+    height: 145px;
+    background-color: #e3e2e2;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+.slider-couple-2{
+    width: 100%;
+    height: 145px;
+    border-radius: 10px;
+    background-color: #e3e2e2;
+}
+
+.slider-couple img {
+    width: 100px;
+    margin-top: 5%;
+}
+
+.slider-couple-2 img {
+    width: 140px;
+    margin-top: 15%;
+}
+
+.slider-big img{
+    width: 150px;
+    margin-top: 20%;
+}
+
+.slider-btn-abled{
+    background-color: #147714;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 14px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.slider-text {
+    width: 50%;
+}
+
+.text-a{
+    width: 80%;
+    height: 100px;
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+    .slider-top{
+        display: block;
+        margin-bottom: 30%;
+    }
+    .slider-img{
+        margin-left: 30%;
+    }
+    .slider-text{
+        margin-left: 23%;
+    }
+}
+
+
+@media (min-width: 550px) and (max-width: 700px){
+    .slider-top{
+        display: block;
+        margin-bottom: 40%;
+    }
+    .slider-img{
+        margin-left: 30%;
+    }
+    .slider-text{
+        margin-left: 23%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 550px){
+    .slider-top{
+        display: block;
+        margin-bottom: 10%;
+    }
+    .slider-img{
+        margin-left: 30%;
+    }
+    .slider-text{
+        margin-left: 23%;
+    }
+    .text-a{
+        display: none;
+    }
+    .slider-btn-abled{
+        width: 80px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1020px){
+    .slider-top{
+        margin-bottom: 23%;
+    }
+}
+
