@@ -1,102 +1,81 @@
 .page-content {
-  display: grid;
-  grid-gap: 1rem;
-  text-align: center;
-  margin-left: 16%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 80px;
 
 }
 
-.card{
-    width: 80%;
+.card {
+    width: 230px;
     height: 350px;
 }
 
 
-.card-title{
-    color: #5B8A8D;
+.card-title {
+    color: #258b9d;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.card-img{
-    border: 1px solid;
+.card-img {
     width: 100%;
     height: 250px;
-    background-color: #e3e2e2;
-    border-radius: 10px;
+    background-color: #f4f1f1e0;
+    border-radius: 15px;
     border: none;
+    padding: 15px 0;
 }
 
-.card-img img{
-    width: 70%;
-    margin-top: 10%;
+.card-img img {
+    width: 100%;
+    margin-top: 45px;
 }
 
-.p-title{
+.p-title {
     text-align: left;
-    color: #147714;
+    color: black;
 }
 
 .card-btn {
     display: flex;
     justify-content: space-between;
 }
-.card-btn-disabled{
-    background-color: #efa8a8;
-    padding: 5px;
+
+.card-btn-disabled {
+    background-color: #c1cd152d;
+    padding: 10px 20px;
     width: 80px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
-    color: #147714;
+    color: #258b9d;
 }
 
-.card-btn-abled{
-    background-color: #147714;
+.card-btn-abled {
+    background-color: #258b9d;
     color: white;
-    padding: 5px;
+    padding: 12px 35px;
+    font-size: 16px;
     width: 130px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
 }
 
-
-
-@media (min-width: 600px) {
-  .page-content {
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 10%;
-  }
-  .card-img img{
-    width: 70%;
-    margin-top: 10%;
-  }
-
-}
-@media (min-width: 860px) {
-  .page-content {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 4%;
-  }
-
-  .card-img img {
-    width: 80%;
-    margin-top: 25%;
-  }
-
-}
-
-@media (min-width: 960px) {
-  .page-content {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 4%;
-  }
-
-  .card-img img {
-    width: 80%;
-    margin-top: 25%;
-  }
+.card-btn-abled:hover {
+    transition-duration: 1s;
+    background-color: #fff;
+    color: #258b9d;
 
 }
 
 
-
-
+@media screen and (max-width: 1400px) {
+    .page-content {
+        justify-content: center;
+    }
+    .card{
+        margin: 30px 15px;
+    }
+}

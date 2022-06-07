@@ -14,7 +14,7 @@ function Slider(props) {
                 <div className="slider-big">
                     <img src={sliderUrl} alt=""/>
                 </div>
-                <div>
+                <div className='slider-small'>
                     <div className="slider-couple">
                     <img src={pic2} onClick={slider} alt=""/>
                 </div>
@@ -24,37 +24,43 @@ function Slider(props) {
                 </div>
             </div>
             <div className="slider-text">
-                <h2>Бязь-001</h2>
+                <h2 style={{marginBottom: '8px'}}>Бязь-001</h2><br/>
                 <i className='fas fa-star' style={{color: 'yellow'}}></i>
                 <i className='fas fa-star' style={{color: 'yellow'}}></i>
                 <i className='fas fa-star' style={{color: 'yellow'}}></i>
                 <i className='fas fa-star' style={{color: 'yellow'}}></i>
                 <i className='far fa-star'></i>
                 <br/><br/>
-                <p>Цветь</p>
-                <button style={{background: 'pink', width: '20px', height: '20px', borderRadius: '20px'}}></button>
-                <button style={{background: 'lightgreen', width: '20px', height: '20px', borderRadius: '20px', margin: '3px'}}></button>
-                <button style={{background: 'orange', width: '20px', height: '20px', borderRadius: '20px'}}></button><br/>
+                <p style={{marginBottom: '8px'}}>Цветь</p>
+                <button style={{background: 'pink', width: '20px', height: '20px', borderRadius: '5px'}}></button>
+                <button style={{background: 'lightgreen', width: '20px', height: '20px', borderRadius: '5px', margin: '3px'}}></button>
+                <button style={{background: 'orange', width: '20px', height: '20px', borderRadius: '5px'}}></button><br/><br/>
                     <h3 style={{display: 'inline-block'}}>$1.5</h3>
-                    <button className='slider-btn-abled'>Заказать</button>
+                    <button className='slider-btn-abled'>Заказать</button><br/><br/>
                 <div className='text-a'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deleniti dignissimos dolores excepturi exercitationem facere fugit illum incidunt ipsa laborum, maxime, minima, molestias mollitia optio pariatur quae quidem voluptatibus voluptatum!</p>
-                    <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                        <div>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                    <p>Мясный свитер с вышитыми сердечками
+                        выполнен из мягкого вязанного трикотажа.
+                        Прямой крой , воротник-стойка , длинные рякава с
+                            заниженной линией плеча , манжеты и эластичные низ.</p><br/><br/>
+                    <div style={{display: 'flex', justifyContent: 'start'}}>
+                        <div className='slider-text-title-left'>
+                            <p>Рисунок</p>
+                            <p>Конструктивные элементы</p>
+                            <p>Длина рукава</p>
+                            <p>Тип рукава</p>
+                            <p>Силуэт</p>
                         </div>
-                        <div>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                        <div className='slider-text-title-right'>
+                            <p>сердце</p>
+                            <p>манжеты</p>
+                            <p>длинный</p>
+                            <p>со сгущённой линией плеча</p>
+                            <p>прямой</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br/><br/><br/>
         </div>
     );
 }
