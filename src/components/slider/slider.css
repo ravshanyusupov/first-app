@@ -12,6 +12,7 @@
     width: 400px;
     /*border: 2px solid;*/
     margin-bottom: 40px;
+    padding-left: 20px;
 }
 
 .slider-text {
@@ -97,12 +98,11 @@
         margin-bottom:  50px;
     }
     .slider-text{
-        width: 100%;
+        width: 85%;
     }
     .slider-img{
-        width: 100%;
+        width: 90%;
         justify-content: left;
-        margin-left: 25px;
     }
 
 .text-a{
