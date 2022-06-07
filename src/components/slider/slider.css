@@ -11,8 +11,6 @@
     justify-content: center;
     width: 400px;
     /*border: 2px solid;*/
-    margin-bottom: 40px;
-    padding-left: 20px;
 }
 
 .slider-text {
@@ -28,17 +26,18 @@
     background-color: #e3e2e2;
     border-radius: 10px;
     margin-right: 2%;
+    margin-left: 18px;
 }
 
 .slider-couple{
-    width: 100%;
+    width: 99%;
     height: 145px;
     background-color: #e3e2e2;
     border-radius: 10px;
     margin-bottom: 7%;
 }
 .slider-couple-2{
-    width: 100%;
+    width: 99%;
     height: 145px;
     border-radius: 10px;
     background-color: #e3e2e2;
@@ -95,13 +94,13 @@
 @media  (max-width: 1200px) {
     .slider-top{
         display: block;
-        margin-bottom:  50px;
+        margin-bottom:  10px;
     }
     .slider-text{
-        width: 85%;
+        width: 87%;
     }
     .slider-img{
-        width: 90%;
+        width: 93%;
         justify-content: left;
     }
 
@@ -114,57 +113,7 @@
     .slider-top{
         margin-bottom:  90px;
     }
+    .text-a{
+    width: 80%;
 }
-
-/*@media (min-width: 700px) and (max-width: 800px){*/
-/*    .slider-top{*/
-/*        display: block;*/
-/*        margin-bottom: 30%;*/
-/*    }*/
-/*    .slider-img{*/
-/*        margin-left: 30%;*/
-/*    }*/
-/*    .slider-text{*/
-/*        margin-left: 23%;*/
-/*    }*/
-/*}*/
-
-
-/*@media (min-width: 550px) and (max-width: 700px){*/
-/*    .slider-top{*/
-/*        display: block;*/
-/*        margin-bottom: 40%;*/
-/*    }*/
-/*    .slider-img{*/
-/*        margin-left: 30%;*/
-/*    }*/
-/*    .slider-text{*/
-/*        margin-left: 23%;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 300px) and (max-width: 550px){*/
-/*    .slider-top{*/
-/*        display: block;*/
-/*        margin-bottom: 10%;*/
-/*    }*/
-/*    .slider-img{*/
-/*        margin-left: 30%;*/
-/*    }*/
-/*    .slider-text{*/
-/*        margin-left: 23%;*/
-/*    }*/
-/*    .text-a{*/
-/*        display: none;*/
-/*    }*/
-/*    .slider-btn-abled{*/
-/*        width: 80px;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 800px) and (max-width: 1020px){*/
-/*    .slider-top{*/
-/*        margin-bottom: 23%;*/
-/*    }*/
-/*}*/
-
+}
